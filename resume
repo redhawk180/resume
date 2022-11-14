@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Your Name resume</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <title>Document</title>
+	</head>
+    <img src = "images/prf_pc.png" alt = "profile_pic" width=40px height= auto positon = float/>
+
+	<body>
+<div class="box-area">
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">ZC</a>
+            </div>
+            <nav>
+                <a href='#'>Home</a></li>
+            </nav>
+    
+
+    </header>
+        <div class="banner-area">
+            
+            <h2>Fixed Banner
+
+            </h2>
+            
+        </div>
+
+        <div class="content-area">
+             <div class="wrapper" >
+                 <h2> Text Details</h2>
+                 <p>
+                    stuff
+                    
+                 </p>
+            </div>
+        </div>
+    
+</div>
+		<main>
+            
+            
+	
+		</main>
+        
+	</body>
+    
+</html>
