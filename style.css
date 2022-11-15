@@ -86,6 +86,7 @@ nav a:hover{
  
     z-index: 3;
     }
+
   
 .banner-area:after{
     content:'';
@@ -137,4 +138,14 @@ nav a:hover{
 }
 .profile_pic{
     height: 10px;
+}
+
+#stickynote{
+    position: absolute;
+    height: 30%;
+    width: auto;
+    z-index: 4;
+    left: 20%;
+    top: 25%;
+
 }
