@@ -1,24 +1,29 @@
 html{
-    background-color: transparent;
-    margin: 0%;
-    padding: 0%;
-    text-align: center;
+    background-color: #0E65A3;
+    padding: 0 auto;
+    margin: 0 auto;
+    border: 0 auto;
+    outline: 0 auto;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: -10px;
+
 }
 
 .wrapper{
     width: 100%;
 
-    margin: 0%;
+ 
     position: absolute;
     z-index: 2;
 }
-.logo{
-    width: 30%;
+.github{
+    width: 20%;
     height: auto;
-    float: left;
+    margin-right: 30px;
     line-height: 50px;
-    position: absolute;
-    color: white;
+   
+
 }
 .logo a{
     text-decoration: none;
@@ -29,8 +34,8 @@ html{
 
 }
 nav{
-    float:right;
-    line-height: 50px;
+    margin-left: 10px;
+   
 
 }
 nav a{
@@ -39,27 +44,29 @@ nav a{
     letter-spacing: 4px;
     font-size: 30%px;
     color: blue;
-    padding: 36px 10 px;
-    margin:0 1px;
+   
+
  
 
 
 }
 nav a:hover{
     
-    background-color:white;
-    height: 100%;
-    color:black;
+    background-color:transparent;
+
+
     
 
 }
 .banner-area{
+
+
     background-image: url(images/htmlbk1.jpg);
     background-size:cover;
     background-position: center;
     object-fit:fill;
     width: 100%;
-    height:400px;
+    height: 100%;
     
     border: solid 1px;
    
@@ -69,11 +76,13 @@ nav a:hover{
 #headshot{
 
     position:absolute;
-    width:175px;
+    width:17.5%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 87%;
+ 
 
-   margin-top: center;
-    top: 270px;
-    left: 44.07%;
+    top: 30%;
+    left: 42.5%;
  
     z-index: 3;
     }
@@ -98,10 +107,10 @@ nav a:hover{
    
     width: 175px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     position: absolute;
     top: 205px;
-    left: 42%;
+    left: 43.5%;
     background-color:white;
  
 
@@ -110,15 +119,13 @@ nav a:hover{
 
 .content-area{
     width: 100%;
-    padding-top: 35%;
-    height: 800px ;
-    
-    
+    height: 100% ;
     background: #0E65A3;
-    
+
 }
 .content-area h2{
     position: absolute;
+    left:50% ;
     top: 200px;
     color: rgb(255, 255, 255);
     font-size: 40px;
