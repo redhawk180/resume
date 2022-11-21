@@ -25,42 +25,14 @@ html{
     height: auto;
     margin-right: 30px;
     line-height: 50px;
+    z-index: 10;
    
 
 }
-.logo a{
-    text-decoration: none;
-    font-size: 10%px;
-    font-family:cursive;
-    color: blue;
-    letter-spacing: 4px;
-
-}
-nav{
-    margin-left: 10px;
-   
-
-}
-nav a{
-    text-decoration: none;
-    font-family: cursive;
-    letter-spacing: 4px;
-    font-size: 30%px;
-    color: blue;
-   
-
- 
 
 
-}
-nav a:hover{
-    
-    background-color:transparent;
 
 
-    
-
-}
 .banner-area{
 
 
@@ -87,7 +59,7 @@ nav a:hover{
     top: 30%;
     left: 42.5%;
  
-    z-index: 3;
+    z-index: 4;
     }
 
   
@@ -102,33 +74,10 @@ nav a:hover{
     z-index: -1;
 
 }
-.banner-area h2{
-    
- 
-
-   
-    width: 175px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 0, 0);
-    position: relative;
-    top: 205px;
-    left: 43.5%;
-    background-color:white;
- 
 
 
-}
 
-.content-area{
-    width: 100%;
-    height: 100% ;
-    background: #0E65A3;
 
-}
-
-.profile_pic{
-    height: 10px;
-}
 
 #stickynote{
     position: absolute;
